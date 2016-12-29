@@ -1,2 +1,2 @@
 # cxcy
-![picture]((https://portal.qiniu.com/bucket/aaaa/resource)
+<p>This is <a href="https://portal.qiniu.com/bucket/aaaa/resource" title="picture">picture</a> inline link</p>
