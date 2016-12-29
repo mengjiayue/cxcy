@@ -33,14 +33,11 @@ class SampleAppMovies extends Component {
                 tabBarPosition='bottom'>
                 <SampleComponent style={styles.content} tabLabel='key1'/>
 
-                <Movies style={styles.content} tabLabel='key2'/>
+                <Movies2 style={styles.content} tabLabel='key2'/>
 
-                <Movies2 style={styles.content} tabLabel='key3'/>
+                <View style={styles.content} tabLabel='key3'>
+                    <Text>#3</Text>
 
-
-
-                <View style={styles.content} tabLabel='key4'>
-                    <Text>#4</Text>
                 </View>
             </ScrollableTabView>
         );
