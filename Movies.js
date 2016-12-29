@@ -104,7 +104,7 @@ var styles = StyleSheet.create({
         paddingTop:15,
         justifyContent: 'center',
         height: 50,
-        backgroundColor:'#1E90FFs',
+        backgroundColor:'#1E90FF',
     },
     content:{
         alignItems:'center',

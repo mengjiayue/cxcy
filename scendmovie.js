@@ -51,12 +51,17 @@ class Movies2 extends Component {
         }
 
         return (
+            <View>
+                <Text style={styles.Top}>即将上映</Text>
+
             <ListView
                 dataSource={this.state.dataSource}
                 renderRow={this.renderMovie}
                 style={styles.listView}
 
             />
+
+            </View>
         );
     }
 
@@ -90,6 +95,16 @@ class Movies2 extends Component {
 }
 
 var styles = StyleSheet.create({
+    Top:{
+        textAlign: 'center',
+        fontSize:20,
+        alignItems: 'center',
+        color:'#FFFFFF',
+        paddingTop:15,
+        justifyContent: 'center',
+        height: 50,
+        backgroundColor:'#1E90FF',
+    },
     container: {
         flex: 1,
         flexDirection: 'row',
@@ -114,7 +129,7 @@ var styles = StyleSheet.create({
         height: 85,
     },
     listView: {
-        paddingTop: 20,
+        paddingTop: 0,
         backgroundColor: '#F5FCFF',
     },
 });
